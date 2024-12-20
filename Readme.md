@@ -23,3 +23,14 @@ La url de mongo esta incluido en el codigo fuente, por temas academicos.
 ### Mongo Atlas - tabla users
 
 <img src="assets/mongo_users.png">
+
+
+## Docker
+
+### Contruir imagen
+
+docker build -t joseperu2503/adoptme-app:v1 .
+
+### Ejecutar el contenedor
+
+docker run --name=adoptme-app -dp 3000:3000 adoptme-app

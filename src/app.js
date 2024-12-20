@@ -9,7 +9,7 @@ import sessionsRouter from "./routes/sessions.router.js";
 import mocksRouter from "./routes/mocks.router.js";
 
 const app = express();
-const PORT = process.env.PORT || 40015;
+const PORT = process.env.PORT || 3000;
 const connection = mongoose.connect(
   `mongodb+srv://joseperu2503:kOtUcaPllftnCVim@cluster0.95r6x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 );
