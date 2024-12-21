@@ -24,6 +24,14 @@ La url de mongo esta incluido en el codigo fuente, por temas academicos.
 
 <img src="assets/mongo_users.png">
 
+## Documentacion
+
+localhost:3000/api-docs
+
+## Test
+
+npm test
+
 ## Docker
 
 ### Contruir imagen
